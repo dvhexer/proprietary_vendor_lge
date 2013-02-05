@@ -63,6 +63,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/mako/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/lge/mako/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/lge/mako/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/lge/mako/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/lge/mako/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/lge/mako/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/lge/mako/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+    vendor/lge/mako/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/lge/mako/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/lge/mako/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/lge/mako/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -169,8 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/mako/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/mako/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
-    vendor/lge/mako/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
-    vendor/lge/mako/proprietary/vendor/firmware/bcm2079x_pre_firmware.ncd:system/vendor/firmware/bcm2079x_pre_firmware.ncd \
+    vendor/lge/mako/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
     vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
     vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
